@@ -2,6 +2,8 @@
 
 Este é um projeto básico de um sistema CRUD (Create, Read, Update, Delete) em PHP, onde é possível gerenciar filmes em um banco de dados MySQL por meio de uma aplicação web simples.
 
+![Movies Project](.github/preview.png)
+
 ## Pré-requisitos
 
 - Servidor web local (como XAMPP, WAMP, ou MAMP) configurado.
