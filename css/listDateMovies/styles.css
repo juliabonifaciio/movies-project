@@ -1,0 +1,59 @@
+/* Estilos para os links e espaçamento geral */
+body {
+    background-color: #f5f0ff; /* Fundo lilás claro */
+    color: #333; /* Cor principal do texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+fieldset {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #8a2be2;
+    border-radius: 10px;
+    background-color: #fff; /* Fundo do campo */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+}
+
+legend {
+    font-weight: bold;
+    color: #8a2be2;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #8a2be2;
+    border-radius: 5px;
+    width: calc(100% - 18px);
+}
+
+input[type="submit"] {
+    background-color: #8a2be2;
+    color: #fff;
+    cursor: pointer;
+    width: auto; /* Largura automática */
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+input[type="submit"]:hover {
+    background-color: #6a1d9b;
+}
+
+a {
+    color: #8a2be2;
+    background-color: #f5f0ff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #8a2be2; /* Adicionando borda aos links */
+
+    &:hover {
+        background-color: #d8ccf5;
+    }
+}
