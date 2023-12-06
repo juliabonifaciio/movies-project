@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa; 
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4b0082; 
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #4b0082; 
+    margin-bottom: 10px;
+}
+
+#search {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #9370db; 
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #9370db;
+    background-color: #9370db; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #663399; 
+}
+
+#list {
+    width: 600px;
+    margin: auto;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    text-align: left; 
+}
+
+#list label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#list a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #9370db; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#list a:hover {
+    background-color: #663399; 
+    transform: scale(1.05);
+}

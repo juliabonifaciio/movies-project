@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes</title>
-    <link rel="stylesheet" href="css/listDateMovies/styles.css">
+    <title>Listar Dados</title>
+    <link rel="stylesheet" href="css/listDateMovies/style.css">
     <style>
         fieldset {
             width: 600px;
@@ -14,6 +14,12 @@
     </style>
 </head>
 <body>
+    <form action="searchDateMovies.php" method="GET">
+        <label for="search">Pesquisar Filme ou Série:</label>
+        <input type="text" id="search" name="search">
+        <input type="submit" value="Pesquisar">
+    </form>
+
     <?php
         include_once 'connect.php';
         $consult = 'SELECT * FROM tbmovie';

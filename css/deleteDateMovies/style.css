@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5ff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    color: #4b0082;
+    border: 1px solid #4b0082;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #4b0082;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 100%; /* Adicionado */
+    display: flex; /* Adicionado */
+    flex-direction: column; /* Adicionado */
+    justify-content: center; /* Adicionado */
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    text-align: center;
+}

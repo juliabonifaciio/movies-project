@@ -3,6 +3,6 @@
     $user = "root";
     $password = "usbw";
     $dbname = "dbmovies";
-
+    
     $conn = mysqli_connect($server, $user, $password, $dbname);
 ?>

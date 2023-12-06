@@ -1,0 +1,17 @@
+CREATE DATABASE dbmovies;
+
+USE dbmovies;
+
+CREATE TABLE tbmovie(
+id INT AUTO_INCREMENT PRIMARY KEY,
+actor VARCHAR(90),
+person VARCHAR(90),
+director VARCHAR(90),
+gender VARCHAR(90),
+launch DATE,
+locality VARCHAR(90),
+rating CHAR (2),
+soundtrack VARCHAR(90),
+streaming VARCHAR(90),
+title VARCHAR(90)
+);
