@@ -28,16 +28,51 @@
 ?>
                     <form method="POST" action="alterDateMovies.php">
                         <input type="hidden" name="code" value="<?php echo $display['id'];?>">
-                        <label>Ator Principal:<input type="text" name="cxactor" value="<?php echo $display['actor'];?>"></label><br>
-                        <label>Personagem Principal:<input type="text" name="cxperson" value="<?php echo $display['person'];?>"></label><br>
-                        <label>Diretor:<input type="text" name="cxdirector" value="<?php echo $display['director'];?>"></label><br>
-                        <label>Gênero:<input type="text" name="cxgender" value="<?php echo $display['gender'];?>"></label><br>
-                        <label>Data de Lançamento:<input type="date" name="cxlaunch" value="<?php echo $display['launch'];?>"></label><br>
-                        <label>Locação:<input type="text" name="cxlocality" value="<?php echo $display['locality'];?>"></label><br>
-                        <label>Classificação Indicativa:<input type="text" name="cxrating" value="<?php echo $display['rating'];?>"></label><br>
-                        <label>Trilha Sonora:<input type="text" name="cxsoundtrack" value="<?php echo $display['soundtrack'];?>"></label><br>
-                        <label>Streaming:<input type="text" name="cxstreaming" value="<?php echo $display['streaming'];?>"></label><br>
-                        <label>Título:<input type="text" name="cxtitle" value="<?php echo $display['title'];?>"></label><br>
+                        <label>
+                            Ator Principal:
+                            <input type="text" name="cxactor" value="<?php echo $display['actor'];?>">
+                        </label><br>
+
+                        <label>
+                            Personagem Principal:
+                            <input type="text" name="cxperson" value="<?php echo $display['person'];?>">
+                        </label><br>
+
+                        <label>
+                            Diretor:
+                            <input type="text" name="cxdirector" value="<?php echo $display['director'];?>">
+                        </label><br>
+
+                        <label>
+                            Gênero:
+                            <input type="text" name="cxgender" value="<?php echo $display['gender'];?>">
+                        </label><br>
+
+                        <label>
+                            Data de Lançamento:
+                            <input type="date" name="cxlaunch" value="<?php echo $display['launch'];?>">
+                        </label><br>
+
+                        <label>
+                            Locação:
+                            <input type="text" name="cxlocality" value="<?php echo $display['locality'];?>">
+                        </label><br>
+
+                        <label>
+                            Classificação Indicativa:<input type="text" name="cxrating" value="<?php echo $display['rating'];?>">
+                        </label><br>
+
+                        <label>
+                            Trilha Sonora:<input type="text" name="cxsoundtrack" value="<?php echo $display['soundtrack'];?>">
+                        </label><br>
+
+                        <label>
+                            Streaming:<input type="text" name="cxstreaming" value="<?php echo $display['streaming'];?>">
+                        </label><br>
+
+                        <label>
+                            Título:<input type="text" name="cxtitle" value="<?php echo $display['title'];?>">
+                        </label><br>
                         <input type="submit" value="Alterar">
                     </form>
 <?php
